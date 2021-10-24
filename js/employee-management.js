@@ -92,7 +92,7 @@ function isVaild(ele) {
     'isValid': true,
     'errorMsg': ''
   }
-  // Name and title validator
+  // Name, title and extension validator
   if(id === 'name' || id === 'title' || id === 'extension') {
     if(!val.length) {
       sts['isValid'] = false;
