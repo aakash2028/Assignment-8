@@ -103,7 +103,7 @@ function isVaild(ele) {
     var ext = Number(val);
     if(isNaN(ext) || ext < 0) {
       sts['isValid'] = false;
-      sts['errorMsg'] = `Invalid ext!!`
+      sts['errorMsg'] = `Invalid ext! Numbers only.`
     }
   }
   return sts;
